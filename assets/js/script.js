@@ -19,12 +19,12 @@
             # Banner Carousel
          ===============================================*/
 
-         const BannerOne = new Swiper('.banner-style-on-carousel', {
+         const BannerOne = new Swiper('.banner-style-one-carousel', {
             // Optional parameters
             direction: 'horizontal',
             loop: true,
             autoplay: false,
-			speed: 1000,
+			speed: 2000,
 			autoplay: {
 				delay: 3000,
 				disableOnInteraction: false,

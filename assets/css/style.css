@@ -221,11 +221,11 @@ ul.header-social li h5 {
 .banner-style-one-area .swiper-slide {
     position: relative;
     z-index: 1;
-    height: 100vh; /* পুরো স্ক্রিন */
+    height: 100vh;
     overflow: hidden;
     display: flex;
-    align-items: center; /* vertical center */
-    justify-content: flex-start; /* বাম পাশে রাখতে চাইলে */
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .banner-style-one-area .swiper-slide::after {
@@ -235,7 +235,7 @@ ul.header-social li h5 {
     height: 100%;
     width: 100%;
     background: #0e2769; 
-    opacity: 0.7;
+    opacity: 0.3;
     content: "";
     z-index: 2; 
 }
@@ -254,4 +254,34 @@ ul.header-social li h5 {
     position: relative;
     z-index: 3;
     color: #fff;
+}
+
+.banner-style-one-item h1 {
+    color: var(--white);
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.3;
+    padding-bottom: 15px;
+}
+
+.banner-style-one-item h1 span {
+    color: var(--color-style-three);
+}
+
+.banner-style-one-item p {
+    color: white;
+    line-height: 1.9;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 71px;
+    padding-bottom: 20px;
+}
+
+.btn-theme {
+    background: var(--color-style-three);
+    padding: 12px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: var(--white);
 }
