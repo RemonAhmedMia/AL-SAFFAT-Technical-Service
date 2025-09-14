@@ -221,8 +221,7 @@ ul.header-social li h5 {
 .banner-style-one-area .swiper-slide {
     position: relative;
     z-index: 1;
-    height: 100vh; 
-    width: 100%;
+    padding: 270px;
     overflow: hidden;
 }
 
@@ -232,7 +231,8 @@ ul.header-social li h5 {
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.5); 
+    background: #0e2769; 
+    opacity: 0.7;
     content: "";
     z-index: 2; 
 }
