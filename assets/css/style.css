@@ -266,6 +266,10 @@ ul.header-social li h5 {
 
 .banner-style-one-item h1 span {
     color: var(--color-style-three);
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--color-style-three);
+    
 }
 
 .banner-style-one-item p {
