@@ -221,8 +221,11 @@ ul.header-social li h5 {
 .banner-style-one-area .swiper-slide {
     position: relative;
     z-index: 1;
-    padding: 270px;
+    height: 100vh; /* পুরো স্ক্রিন */
     overflow: hidden;
+    display: flex;
+    align-items: center; /* vertical center */
+    justify-content: flex-start; /* বাম পাশে রাখতে চাইলে */
 }
 
 .banner-style-one-area .swiper-slide::after {
@@ -245,4 +248,10 @@ ul.header-social li h5 {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+.banner-style-one-area .banner-style-one-item {
+    position: relative;
+    z-index: 3;
+    color: #fff;
 }
