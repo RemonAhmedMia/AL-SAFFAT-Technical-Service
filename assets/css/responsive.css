@@ -1,0 +1,226 @@
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+
+/* Extra large: large desktops, 1200px and up*/
+@media (min-width: 1200px) {  }
+
+/* large device: desktops, 992px and up*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  
+ }
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /* Banner Responsive */
+.banner-style-one-thumb {
+    margin-top: 30px;
+}
+
+.banner-style-one-item h1{
+    font-size: 55px;
+}
+
+.banner-style-two-item h1 {
+    font-size: 70px;
+}
+
+/* Funfact Responsive */
+
+.funfact-style-one-content h3{
+    font-size: 45px;
+}
+
+/* Service Responsive */
+
+.service-style-one-heading h3{
+    font-size: 35px;
+}
+
+/* Offer Responsive */
+.offer-one-contact {
+    margin-top: 50px;
+}
+
+/* Footer Responsive */
+.footer-style-one-item {
+    margin-top: 30px;
+}
+
+.contact-one-left {
+    margin-bottom: 30px;
+}
+
+}
+
+/* MObile Layout: 576px.*/
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    /* Banner Responsive */
+.banner-style-one-thumb {
+    margin-top: 30px;
+}
+
+.banner-style-one-item h1{
+    font-size: 42px;
+}
+
+.banner-style-two-item h1 {
+    font-size: 50px;
+}
+
+.attr-nav {
+    display: none;
+}
+
+/* Funfact Responsive */
+
+.funfact-style-one-content h3{
+    font-size: 35px;
+}
+
+.progress-style-one-item h3 {
+    font-size: 35px;
+}
+
+/* Service Responsive */
+
+.service-style-one-heading h3{
+    font-size: 28px;
+}
+
+/* Offer Responsive */
+.offer-one-contact {
+    margin-top: 50px;
+}
+
+.offer-one-contact h3 {
+    font-size: 35px;
+}
+
+/* Footer Responsive */
+.footer-style-one-item {
+    margin-top: 30px;
+}
+
+ul.footer-social li {
+    display: block !important;
+}
+
+.contact-one-left {
+    margin-bottom: 30px;
+}
+
+}
+
+/* MObile Layout: 576px.*/
+@media (max-width: 575.98px) { 
+
+/* Banner Responsive */
+.banner-style-one-thumb {
+    margin-top: 30px;
+}
+.banner-style-one-item h1{
+    font-size: 30px;
+}
+
+.banner-style-one-item {
+    text-align: center;
+}
+
+.banner-style-two-item h1 {
+    font-size: 40px;
+}
+
+.banner-style-two-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.attr-nav {
+    display: none;
+}
+
+/* Funfact Responsive */
+
+.funfact-style-one-content h3{
+    font-size: 30px;
+}
+
+.funfact-style-one-content {
+    text-align: center;
+}
+
+/* Skill Responsive */
+.progress-style-one-item {
+    margin-bottom: 46px;
+}
+
+.progress-style-one-item h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.progress-style-one-item h5 {
+    text-align: center;
+}
+
+.progress-style-one-thumb .info h3 {
+    font-size: 30px;
+}
+
+/* Service Responsive */
+
+.service-style-one-heading h3{
+    font-size: 28px;
+}
+
+/* Offer Responsive */
+.offer-one-contact {
+    margin-top: 50px;
+}
+
+.offer-one-contact {
+    text-align: center;
+}
+
+.offer-one-contact h3 {
+    font-size: 30px;
+}
+
+/* Contact Responsive */
+
+.contact-style-one-contact {
+    margin-top: 45px;
+}
+
+.contact-heading h3 {
+    font-size: 35px;
+}
+
+/* Footer Responsive */
+.footer-style-one-item {
+    margin-top: 30px;
+}
+
+.service-two-heading h3 {
+    font-size: 40px;
+}
+
+.contact-one-left {
+    margin-bottom: 30px;
+}
+
+.footer-style-two-left {
+    text-align: center;
+}
+
+.footer-two-item {
+    text-align: center;
+}
+
+}
