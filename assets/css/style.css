@@ -328,6 +328,7 @@ ul.header-social li h5 {
     padding: 250px 0;
     position: relative;
     z-index: 1;
+	background-attachment: fixed;
 }
 
 .service-style-one-area::after {
@@ -337,7 +338,22 @@ ul.header-social li h5 {
     height: 100%;
     width: 100%;
     content: "";
-    background: black;
+    background: var(--black);
     opacity: 0.5;
     z-index: -1;
+}
+
+.service-style-one-heading h5 {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.service-style-one-heading h3 {
+    color: var(--white);
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.2;
 }
