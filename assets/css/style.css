@@ -625,7 +625,7 @@ ul.header-social li h5 {
   }
 }
 
-
+/* ==============Image Hover Effect */
 
 
 /* Shine */
@@ -660,4 +660,19 @@ ul.header-social li h5 {
 	100% {
 		left: 125%;
 	}
+}
+
+/* =============================Choose */
+
+.choose-us-style-one-thumb img {
+    width: 100%;
+}
+
+.choose-us-style-one-thumb img {
+    width: 100%;
+}
+
+.chooseus-style-one-area {
+    padding: 120px 0;
+    background: red;
 }
