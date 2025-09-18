@@ -490,7 +490,7 @@ ul.header-social li h5 {
     padding: 120px 0;
 }
 
-.progress-style-one-item h5 {
+.progress-style-one-heading h5 {
     color: var(--color-style-three);
     font-size: 20px;
     text-transform: uppercase;
@@ -498,8 +498,8 @@ ul.header-social li h5 {
     padding-bottom: 18px;
 }
 
-.progress-style-one-item h3 {
-    font-size: 60px;
+.progress-style-one-heading h3 {
+    font-size: 55px;
     line-height: 1.2;
     font-weight: 700;
     padding-bottom: 28px;
