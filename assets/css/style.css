@@ -664,8 +664,14 @@ ul.header-social li h5 {
 
 /* =============================Choose */
 
-.choose-us-style-one-thumb img {
-    width: 100%;
+.choose-us-style-one-thumb {
+    height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: -120px;
+	position: relative;
+	bottom: -120px;
 }
 
 .choose-us-style-one-thumb img {
@@ -749,7 +755,7 @@ ul.header-social li h5 {
 }
 
 .chooseus-style-one-content h3 span {
-    color: var(--dark);
+    color: var(--dark-secondary);
 }
 
 .chooseus-style-one-item img {
@@ -767,6 +773,7 @@ ul.header-social li h5 {
 	z-index: 99;
 	background-color: var(--white);
 }
+
 
 .chooseus-style-one-item:hover {
 	transform: translateY(-10px);
