@@ -429,3 +429,14 @@ ul.header-social li h5 {
     position: relative;
     z-index: 1;
 }
+
+
+.experience-style-one-content img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.experience-style-one-content h3 {
+    font-size: 55px;
+}
