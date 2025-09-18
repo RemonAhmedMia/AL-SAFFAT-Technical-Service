@@ -701,5 +701,22 @@ ul.header-social li h5 {
     background: var(--dark-secondary);
     z-index: -1;
     transform: skewX(-24deg);
+}
 
+.chooseus-style-one-content h5 {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+	color: var(--dark);
+}
+
+.chooseus-style-one-content h3 {
+    font-size: 50px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.chooseus-style-one-content h3 span {
+    color: var(--color-style-three);
 }
