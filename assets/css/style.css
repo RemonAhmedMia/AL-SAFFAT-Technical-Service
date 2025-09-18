@@ -673,6 +673,33 @@ ul.header-social li h5 {
 }
 
 .chooseus-style-one-area {
-    padding: 120px 0;
-    background: red;
+    padding-top: 150px;
+	position: relative;
+	z-index: 1;
+}
+
+.chooseus-style-one-area::after {
+    position: absolute;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    width: 65%;
+    content: "";
+    background: var(--dark);
+    z-index: -1;
+    transform: skewX(-24deg);
+
+}
+
+.chooseus-style-one-area::before {
+    position: absolute;
+    left: -200px;
+    top: 0;
+    height: 100%;
+    width: 67%;
+    content: "";
+    background: var(--dark-secondary);
+    z-index: -1;
+    transform: skewX(-24deg);
+
 }
