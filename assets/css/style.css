@@ -842,3 +842,49 @@ ul.header-social li h5 {
 .chooseus-inner-content h5 {
     color: var(--dark-secondary);
 }
+
+/* =====================Contact */
+
+.contact-style-one-area {
+    padding: 80px 0;
+    background: var(--bg-gray);
+}
+
+.contact-one-item .input-form {
+    width: 100%;
+    padding: 15px 30px;
+    background: var(--white);
+    border: none;
+    margin-top: 25px;
+}
+
+.contact-one-item .input-form textarea {
+    height: 350px;
+}
+
+.contact-one-item .btn-theme {
+    background: var(--color-style-three);
+    text-transform: uppercase;
+    border-radius: 0;
+    margin-top: 20px;
+    border: none;
+    padding: 12px 30px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.contact-heading {
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-heading h3 {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.contact-heading img {
+    width: 134px;
+}
