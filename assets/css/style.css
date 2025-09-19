@@ -790,7 +790,7 @@ ul.header-social li h5 {
     inset: 0;
     overflow: hidden;
     z-index: 0;
-    filter: blur(15px);
+    filter: blur(8px);
 }
 
 .animated-border-glow::before {
@@ -811,9 +811,9 @@ ul.header-social li h5 {
 .chooseus-style-one-item::after {
     content: '';
     position: absolute;
-    top: 5px; left: 5px;
-    width: calc(100% - 10px);
-    height: calc(100% - 10px);
+    top: 2px; left: 2px;
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
     background: var(--white);
     z-index: 0;
 }
@@ -833,4 +833,12 @@ ul.header-social li h5 {
     font-weight: 400;
     line-height: 1.4;
     padding-top: 10px;
+}
+
+.chooseus-style-one-item.extra-padding p {
+    padding-bottom: 20px;
+}
+
+.chooseus-inner-content h5 {
+    color: var(--dark-secondary);
 }
