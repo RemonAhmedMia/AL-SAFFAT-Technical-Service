@@ -266,9 +266,7 @@ ul.header-social li h5 {
 
 .banner-style-one-item h1 span {
     color: var(--color-style-three);
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--color-style-three);
+    
     
 }
 
@@ -279,9 +277,7 @@ ul.header-social li h5 {
     font-weight: 400;
     padding-right: 71px;
     padding-bottom: 20px;
-    color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--white);
+
 }
 
 .btn-theme {
