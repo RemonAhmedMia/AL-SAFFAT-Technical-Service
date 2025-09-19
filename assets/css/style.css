@@ -913,3 +913,114 @@ ul.header-social li h5 {
     width: 134px;
 	display: inline-block;
 }
+
+/* ============================================================== 
+     # Start Footer Css
+=================================================================== */
+
+.footer-style-one-area {
+    padding: 200px 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.footer-style-one-area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--black);
+    content: "";
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.footer-style-one-left .logo img {
+    width: 150px;
+}
+
+.footer-style-one-left .info p {
+    color: var(--white);
+    padding-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.footer-style-one-item h4 {
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+ul.footer-social li i {
+    background: var(--color-style-three);
+    font-size: 20px;
+    margin-right: 20px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    color: var(--white);
+}
+
+ul.footer-social li {
+    margin-bottom: 20px;
+}
+
+ul.footer-social li h6 {
+    color: var(--white);
+    line-height: 1.7;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ul.footer-social li a {
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+ul.footer-social li:hover a {
+    color: var(--color-style-three);
+}
+
+ul.working-time li span {
+    color: var(--color-style-three);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+ul.working-time li {
+    margin-bottom: 20px;
+}
+
+ul.working-time li h5 {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-style-one-left .logo {
+    position: relative;
+    z-index: 1;
+}
+
+.footer-style-one-left .logo::after {
+    position: absolute;
+    left: -28px;
+    top: 9px;
+    height: 131px;
+    width: 136px;
+    content: "";
+    background: white;
+    z-index: -1;
+    /* transform: skewX(-7deg); */
+}
+
