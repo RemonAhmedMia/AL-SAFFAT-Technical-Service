@@ -932,7 +932,7 @@ ul.header-social li h5 {
     top: 0;
     height: 100%;
     width: 100%;
-    background: var(--black);
+    background: var(--dark);
     content: "";
     opacity: 0.6;
     z-index: -1;
@@ -959,7 +959,7 @@ ul.header-social li h5 {
 }
 
 ul.footer-social li i {
-    background: var(--color-style-three);
+    /* background: var(--white); */
     font-size: 20px;
     margin-right: 20px;
     height: 45px;
@@ -992,7 +992,7 @@ ul.footer-social li:hover a {
 }
 
 ul.working-time li span {
-    color: var(--color-style-three);
+    color: var(--white);
     font-size: 18px;
     font-weight: 700;
 }
