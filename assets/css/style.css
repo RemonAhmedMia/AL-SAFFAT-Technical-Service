@@ -846,8 +846,12 @@ ul.header-social li h5 {
 /* =====================Contact */
 
 .contact-style-one-area {
-    padding: 80px 0;
-    background: var(--bg-gray);
+    padding: 120px 0;
+    position: relative;
+	z-index: 1;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .contact-one-item .input-form {
