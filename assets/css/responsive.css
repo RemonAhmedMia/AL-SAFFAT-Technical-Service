@@ -36,6 +36,30 @@
     margin-bottom: 30px;
 }
 
+.service-style-one-heading h3 {
+    font-size: 48px;
+}
+
+.progress-style-one-heading h3 {
+    font-size: 45px;
+}
+
+.choose-us-style-one-thumb {
+    display: none;
+}
+
+.footer-style-one-item {
+    margin-top: 20px;
+}
+
+.banner-style-two-item h1 {
+    font-size: 50px;
+}
+
+.attr-nav {
+    display: none;
+}
+
 }
 
 /* MObile Layout: 576px.*/
@@ -86,6 +110,18 @@
     font-size: 28px;
 }
 
+.progress-style-one-heading h3 {
+    font-size: 35px;
+}
+
+.chooseus-style-one-content h3 {
+    font-size: 35px;
+}
+
+.choose-us-style-one-thumb {
+    display: none;
+}
+
 /* Offer Responsive */
 .offer-one-contact {
     margin-top: 50px;
@@ -106,6 +142,23 @@ ul.footer-social li {
 
 .contact-one-left {
     margin-bottom: 30px;
+}
+
+.banner-style-two-item h1 {
+    font-size: 42px;
+}
+
+.service-two-heading h3 {
+    font-size: 42px;
+}
+
+.contact-heading h3 {
+    font-size: 45px;
+}
+
+.banner-style-two-item .logo img {
+    width: 120px;
+    height: 120px;
 }
 
 }
@@ -202,17 +255,33 @@ ul.footer-social li {
     font-size: 28px;
 }
 
-/* Offer Responsive */
-.offer-one-contact {
-    margin-top: 50px;
+.choose-us-style-one-thumb {
+    display: none;
 }
 
-.offer-one-contact {
+.chooseus-style-one-content h3 {
+    font-size: 30px;
+}
+
+.progress-style-one-heading h3 {
+    font-size: 30px;
+}
+
+.footer-style-one-left {
     text-align: center;
 }
 
-.offer-one-contact h3 {
-    font-size: 30px;
+.footer-style-one-item {
+    text-align: center !important;
+}
+
+ul.footer-social {
+    text-align: center;
+    justify-content: center;
+}
+
+ul.footer-social li {
+    display: block !important;
 }
 
 /* Contact Responsive */
@@ -231,7 +300,7 @@ ul.footer-social li {
 }
 
 .service-two-heading h3 {
-    font-size: 40px;
+    font-size: 35px;
 }
 
 .contact-one-left {
@@ -244,6 +313,19 @@ ul.footer-social li {
 
 .footer-two-item {
     text-align: center;
+}
+
+.company-details-one-item p {
+    text-align: center;
+}
+
+.company-details-one-item {
+    padding: 50px 25px;
+}
+
+.banner-style-two-item .logo img {
+    width: 120px;
+    height: 120px;
 }
 
 }
