@@ -1008,17 +1008,7 @@ ul.working-time li h5 {
     z-index: 1;
 }
 
-.footer-style-one-left .logo::after {
-    position: absolute;
-    left: -28px;
-    top: 9px;
-    height: 131px;
-    width: 136px;
-    content: "";
-    background: white;
-    z-index: -1;
-    /* transform: skewX(-7deg); */
-}
+
 
 .banner-style-two-item .logo img {
     width: 135px;

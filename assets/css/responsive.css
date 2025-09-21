@@ -28,29 +28,11 @@
     font-size: 70px;
 }
 
-/* Funfact Responsive */
-
-.funfact-style-one-content h3{
-    font-size: 45px;
+.experience-style-one-content h3 {
+    font-size: 47px;
 }
 
-/* Service Responsive */
-
-.service-style-one-heading h3{
-    font-size: 35px;
-}
-
-/* Offer Responsive */
-.offer-one-contact {
-    margin-top: 50px;
-}
-
-/* Footer Responsive */
-.footer-style-one-item {
-    margin-top: 30px;
-}
-
-.contact-one-left {
+.experience-style-one-content {
     margin-bottom: 30px;
 }
 
@@ -77,6 +59,9 @@
     display: none;
 }
 
+.experience-style-one-content {
+    margin-bottom: 30px;
+}
 /* Funfact Responsive */
 
 .funfact-style-one-content h3{
@@ -134,6 +119,11 @@ ul.footer-social li {
 
 .banner-style-two-item h1 {
     font-size: 40px;
+}
+
+.banner-style-one-item p {
+    padding-right: 0;
+    line-height: 1.4;
 }
 
 .banner-style-two-item img {
