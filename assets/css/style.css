@@ -1020,3 +1020,26 @@ ul.working-time li h5 {
     /* transform: skewX(-7deg); */
 }
 
+.banner-style-two-item .logo img {
+    width: 135px;
+}
+
+.banner-style-two-area {
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-style-two-area::after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--dark);
+    content: "";
+    z-index: -1;
+    opacity: 0.6;
+}
