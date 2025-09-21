@@ -1099,3 +1099,44 @@ ul.working-time li h5 {
     75% { transform: translateX(-7px); }
     100% { transform: translateX(7px); }
   }
+
+
+
+  .service-two-heading h3 {
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    color: var(--white);
+}
+
+.service-two-heading p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+    padding-bottom: 30px;
+    color: var(--white);
+}
+
+.service-style-two-item {
+    margin-top: 30px;
+}
+
+.service-style-two-item img {
+    margin-bottom: 20px;
+}
+
+.service-style-two-item h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.service-style-two-area {
+    padding: 100px 0;
+    background: var(--dark);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
