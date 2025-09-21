@@ -1038,8 +1038,64 @@ ul.working-time li h5 {
     top: 0;
     height: 100%;
     width: 100%;
-    background: var(--dark);
+    background: var(--black);
     content: "";
     z-index: -1;
     opacity: 0.6;
 }
+
+.banner-style-two-item h1 {
+    color: white;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* ============================================================== 
+     # Start Company Details Css
+=================================================================== */
+
+.company-details-one-item {
+    position: relative;
+	z-index: 1;
+    padding: 80px;
+	background-size: cover;
+	background-position: center;
+    animation: fadeRightLeft 10s linear infinite;
+    animation: asts 4s infinite ease-in-out; /* Slower duration (3s) and smooth easing */
+    transition: transform 0.3s ease;
+}
+
+.company-details-one-item::after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background: var(--dark);
+	opacity: 0.6;
+	z-index: -1;
+}
+
+.company-details-one-item p {
+    margin-bottom: 22px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.company-details-one-area {
+    position: relative;
+    top: -120px;
+    z-index: 9;
+}
+
+@keyframes asts {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-7px); }
+    50% { transform: translateX(7px); }
+    75% { transform: translateX(-7px); }
+    100% { transform: translateX(7px); }
+  }
