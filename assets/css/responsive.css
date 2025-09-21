@@ -62,6 +62,14 @@
 .experience-style-one-content {
     margin-bottom: 30px;
 }
+
+.experience-style-one-content h3 {
+    font-size: 40px;
+}
+
+.experience-style-one-content p {
+    padding-right: 0;
+}
 /* Funfact Responsive */
 
 .funfact-style-one-content h3{
@@ -133,6 +141,31 @@ ul.footer-social li {
 
 .attr-nav {
     display: none;
+}
+
+.experience-style-one-content h3 {
+    font-size: 33px;
+}
+
+.experience-style-one-content {
+    text-align: center;
+}
+
+.experience-style-one-content p {
+    padding-right: 0;
+}
+
+.experience-style-one-content {
+    margin-bottom: 30px;
+}
+
+.experience-style-one-thumb .info h3 {
+    font-size: 27px;
+}
+
+.experience-style-one-content img {
+    height: 70px;
+    width: 70px;
 }
 
 /* Funfact Responsive */
